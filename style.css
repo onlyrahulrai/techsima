@@ -1,0 +1,44 @@
+.container{
+    border: 1px solid rgb(23, 73, 87);
+    background-color: rgb(40, 180, 193);
+    height:81vh;
+    width:50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.container:hover{
+box-shadow: 5px 10px 5px rgb(99, 88, 161);
+
+}
+
+.heading{
+    text-align: center;
+    color:rgb(7, 55, 55);
+}
+input{
+    margin-top:1rem;
+    width: 50%;
+    height: 1.3rem;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.submit{
+    margin-left:30rem;
+    height:2rem;
+    width:5rem;
+    border-radius: 10px;
+    color:black;
+    background-color: rgb(156, 161, 165);
+}
+.submit:hover{
+    background-color: gold;
+    color: white;
+}
+#address{
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+}
