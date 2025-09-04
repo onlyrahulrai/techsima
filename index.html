@@ -1,15 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body>
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="heading">fill your details</h1>
+   <div class="container">
+     <form action="#">
+      <label for="username">Name:</label>
+      <input
+        type="text"
+        id="username"
+        placeholder=" enter your name"
+        name="usernname"
+      />
+      <br />
+      <br />
+      <label for="fname"> Father Name:</label>
+      <input
+        type="text"
+        id="fname"
+        placeholder=" enter your father name"
+        name="fname"
+      />
+      <br />
+      <br />
+      <label for="mname">Mother Name:</label>
+      <input
+        type="text"
+        id="mname"
+        placeholder=" enter yourmother name"
+        name="mname"
+      />
+      <br />
+      <br />
+      <label for="city">City:</label>
+      <input type="text" id="city" placeholder=" enter your ciyt" name="city" />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        placeholder=" enter your  password"
+        name="password"
+      />
+      <br />
+      <br />
 
-    <h4>Home Page</h4>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut laudantium sit culpa, tenetur officia fugit totam nobis recusandae at neque.</p>
-</body>
+      <label for="email">E mail:</label>
+      <input
+        type="email"
+        id="email"
+        placeholder=" enter your email"
+        name="email"
+      />
+      <br />
+      <br />
+      <label for="address">Adress</label>
+      <textarea type="text" placeholder="enter your  address" id="address"></textarea>
+       <br> <br>
+       <button class="submit">Submit</button>
+    </form>
+   </div>
+  </body>
 </html>
